@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: url('https://apod.nasa.gov/apod/image/2003/Messier13_HelmColes.jpg')
 }
 
 .App-logo {
@@ -22,6 +23,28 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+p{
+  color:white;
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 4rem;
+  color: white; 
+
+  animation-name: text-color;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes text-color{
+  0% {color: white}
+  25% {color: aquamarine}
+  50% {color: mediumpurple}
+  75% {color: salmon}
+  100% {color: bisque}
 }
 
 .App-link {
